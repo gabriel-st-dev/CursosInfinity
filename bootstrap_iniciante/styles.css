@@ -1,0 +1,61 @@
+
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.corDeFundo{
+    background-color: #8B0000;
+    color: #fff;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 50px;
+    background-color: #363636;
+    
+}
+
+.solid{
+    border: solid;
+
+}
+
+section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-inline: 2.5px;
+    
+}
+
+.card{
+    display: inline-block;
+    margin: 5px;
+    
+}
+.decor{
+    transition: .5s;
+}
+.decor:hover{
+    color: #fff;
+}
+
+img{
+    max-height: 350px;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    
+}
